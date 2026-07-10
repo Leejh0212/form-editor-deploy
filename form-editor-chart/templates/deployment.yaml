@@ -1,0 +1,9 @@
+kind: Deployment
+metadata:
+  name: web                          
+spec:
+  replicas: {{ .Values.replicaCount }}    
+  ...
+      containers:
+        - name: nginx                
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
