@@ -1,4 +1,4 @@
 image:
-  repository: ghcr.io/leejh0212/form-editor   # 이미지 주소
-  tag: "latest"                                # 이미지 태그 ← 배포 버전!
-replicaCount: 1                                # 파드 개수
+  repository: ghcr.io/leejh0212/form-editor
+  tag: "latest"
+replicaCount: 1
