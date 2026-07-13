@@ -1,4 +1,4 @@
 image:
   repository: ghcr.io/leejh0212/form-editor
-  tag: "5"
+  tag: "6"
 replicaCount: 1
